@@ -10,6 +10,8 @@ function App() {
     { id: 2, name: "วี", gender: "male" },
     { id: 3, name: "บี", gender: "female" },
     { id: 4, name: "พลอย", gender: "female" },
+    { id: 5, name: "โด", gender: "male" },
+    { id: 6, name: "พล", gender: "male" },
   ]);
 
   const [theme, setTheme] = useState(localStorage.getItem("mode") || "light")
